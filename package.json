@@ -1,0 +1,19 @@
+{
+  "name": "programming-test",
+  "version": "1.0.0",
+  "description": "implement a web service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.37"
+  },
+  "author": "Nahum Fabian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "express": "4.13.3",
+    "mocha": "2.3.4"
+  }
+}
