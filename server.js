@@ -6,7 +6,7 @@ var routes      = require('./routes');
 
 app.set('port', (process.env.PORT || 3000));
 app.use(bodyparser.json());
-app.use(bodyparser.urlencoded( {entended: true}));
+app.use(bodyparser.urlencoded( {extended: false}));
 
 app.use('/', routes);
 
